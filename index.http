@@ -1,0 +1,16 @@
+GET http://localhost:3000/empleados
+
+###
+
+POST http://localhost:3000/empleados
+
+
+### 
+
+PUT http://localhost:3000/empleados
+
+
+###
+
+
+DELETE http://localhost:3000/empleados
