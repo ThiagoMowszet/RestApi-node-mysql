@@ -12,3 +12,15 @@ CREATE TABLE empleado (
     PRIMARY KEY (ID)
 );
 
+--@block 
+DESCRIBE empleado
+
+--@block
+use empresadb;
+
+insert into empleado (nombre, salario) values (
+    (1, 'Joe', 1000),
+    (2, 'Henry', 2000),
+    (3, 'Sam', 2500),
+    (4, 'Max', 1500)
+);
